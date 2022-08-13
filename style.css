@@ -1,0 +1,88 @@
+/*
+Sntax for CSS
+Selector{
+	property : value;
+}*/
+/*In CSS we have SPECIFICITY RULE
+1. Element - High Priority 
+2. Class
+3. Universal - Least Priority
+*/
+
+/* Universal Selector*/
+*{
+	font-family: "Roboto", sans-serif;
+
+}
+
+/*Element Selector*/
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 280px;
+	width: 280px;
+	border-radius: 50%;
+	border: 5px solid #0d6efd;
+}
+
+ul{
+	list-style: none;
+	padding: 25px;
+	padding: 0;
+}
+
+/*id*/
+#landing {
+	height: 100vh; 				/* view height (vh) */
+	display: flex; 				/*flexible layouts from left to right*/
+	flex-direction: column;		/*row on the elements*/
+	justify-content: center;	/*make div center*/
+	align-items: center; 		/*element center*/
+}
+
+#gallery {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+/*class selector*/
+.tools{
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width : 75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+h2 {
+	color: #f2f2f2;
+}
+/* makes the scrolling of the page smooth */
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+/*Bootstrap spaces
+
+m => margin
+p => padding
+
+t => top
+s => for start or left
+e => for end or right
+b => bottom
+
+x => x-axis
+y => y-axis
+
+1-5 or auto
+
+
+mx-auto*/
